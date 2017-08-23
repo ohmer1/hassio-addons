@@ -1,0 +1,30 @@
+{
+  "name": "obihai2mqtt",
+  "version": "1.0-0",
+  "slug": "obihai2mqtt",
+  "description": "Forward obihai lines states to MQTT.",
+  "startup": "after",
+  "boot": "auto",
+  "options": {
+     "poll_freq": "5",
+     "obihai_host": "",
+     "obihai_user": "admin",
+     "obihai_pass": "admin",
+     "mqtt_host": "localhost",
+     "mqtt_port": "1883",
+     "mqtt_user": "",
+     "mqtt_pass": "",
+     "mqtt_topic": "obihai"                     
+  },
+  "schema": {
+     "poll_freq": "str",
+     "obihai_host": "str",
+     "obihai_user": "str",
+     "obihai_pass": "str",
+     "mqtt_host": "str",
+     "mqtt_port": "str",
+     "mqtt_user": "str",
+     "mqtt_pass": "str",
+     "mqtt_topic": "str"                                          
+  }
+}
