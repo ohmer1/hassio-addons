@@ -12,11 +12,12 @@ Sample sensor configuration:
 sensor:
   - platform: mqtt
     name: home_phone
-    # In this example, it uses the default *obihai* topic. 
+    # In this example, it uses the default "obihai" topic. 
     # If you also use line2 on your ATA, you'll need to also add a second sensor 
-    # with the *obihai/state_line2* topic.
+    # with the "obihai/state_line2" topic.
     state_topic: 'obihai/state_line1'
-    # Ignore value after 120 seconds. If the script crash, it will return status *unknown& instead of a stalled value.
+    # Ignore value after 120 seconds.
+    # If the script crash, it will return status *unknown" instead of a stalled value.
     expire_after: 120
 ```
 
