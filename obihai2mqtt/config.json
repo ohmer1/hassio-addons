@@ -1,6 +1,6 @@
 {
   "name": "obihai2mqtt",
-  "version": "1.0-0",
+  "version": "1.0-1",
   "slug": "obihai2mqtt",
   "description": "Forward obihai lines states to MQTT.",
   "startup": "after",
